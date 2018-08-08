@@ -13,13 +13,10 @@
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2BDBCFF7211AEF8200F615A9 /* ColorRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBCFF6211AEF8200F615A9 /* ColorRGB.swift */; };
-		2BDBCFF9211AF3D000F615A9 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBCFF8211AF3D000F615A9 /* Math.swift */; };
-		2BDBCFFA211AF94000F615A9 /* TanggalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBCFF4211AED0100F615A9 /* TanggalUI.swift */; };
+		2B7A0071211B062B00A46600 /* TanggalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBCFF4211AED0100F615A9 /* TanggalUI.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31AF639D34414EF8BAD3B1386CBA2FAE /* Group13-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6E606508C85C97C23942AFF4C02582 /* Group13-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		36BC25C2A2CAB77AEA1990010C568082 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984D0E6039BEB509DCC712AF8DCD749 /* ReplaceMe.swift */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
 		4B7EFA99C68CA8B46B5DCC7207B19290 /* Pods-Group13_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB46672092C5E6F28075DA45CE35F997 /* Pods-Group13_Example-dummy.m */; };
@@ -80,12 +77,9 @@
 		1E6E606508C85C97C23942AFF4C02582 /* Group13-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Group13-umbrella.h"; sourceTree = "<group>"; };
 		248B864990112172E9837127EA234625 /* Pods-Group13_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Group13_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2BDBCFF4211AED0100F615A9 /* TanggalUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanggalUI.swift; sourceTree = "<group>"; };
-		2BDBCFF6211AEF8200F615A9 /* ColorRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRGB.swift; sourceTree = "<group>"; };
-		2BDBCFF8211AF3D000F615A9 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		36B3EAE702A04E498EABD4FBC9A81401 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3984D0E6039BEB509DCC712AF8DCD749 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Group13/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		3E840831689DD41A910FF608E8638B3F /* Pods-Group13_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Group13_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +193,14 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		2BDBCFFB211B060C00F615A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BDBCFF4211AED0100F615A9 /* TanggalUI.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,9 +252,7 @@
 		8B1B98588EE465E5ACD4E40C1FD3D2F6 /* Group13 */ = {
 			isa = PBXGroup;
 			children = (
-				3984D0E6039BEB509DCC712AF8DCD749 /* ReplaceMe.swift */,
-				2BDBCFF6211AEF8200F615A9 /* ColorRGB.swift */,
-				2BDBCFF8211AF3D000F615A9 /* Math.swift */,
+				2BDBCFFB211B060C00F615A9 /* Classes */,
 				A2357FB436346D91A3F25D5780101733 /* Pod */,
 				D2CAC8E6E741515F0364CD0107294777 /* Support Files */,
 			);
@@ -282,7 +282,6 @@
 			isa = PBXGroup;
 			children = (
 				8B1B98588EE465E5ACD4E40C1FD3D2F6 /* Group13 */,
-				2BDBCFF4211AED0100F615A9 /* TanggalUI.swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -517,8 +516,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC871FDDFB22AA2BBA6E77D76319E23 /* Group13-dummy.m in Sources */,
-				36BC25C2A2CAB77AEA1990010C568082 /* ReplaceMe.swift in Sources */,
-				2BDBCFFA211AF94000F615A9 /* TanggalUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,15 +533,14 @@
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				2B7A0071211B062B00A46600 /* TanggalUI.swift in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2BDBCFF7211AEF8200F615A9 /* ColorRGB.swift in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
-				2BDBCFF9211AF3D000F615A9 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
