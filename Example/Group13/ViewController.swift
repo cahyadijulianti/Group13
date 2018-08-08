@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Group13
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbltext: UILabel!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       super.viewDidLoad()
+
+        lbltext.text = Date.today()
+        print(Date.today())
+        
+      
     }
 
     override func didReceiveMemoryWarning() {
