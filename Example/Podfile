@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Group13_Example' do
+  pod 'Group13', :path => '../'
+
+  target 'Group13_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
